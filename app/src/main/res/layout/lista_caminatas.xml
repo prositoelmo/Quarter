@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+           android:id="@+id/tipoRecorrido"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_caminar"
+            android:background="#FFFF59"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Identificador de Carrera"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/identificador"
+            android:layout_toRightOf="@id/tipoRecorrido"
+            android:layout_toEndOf="@+id/tipoRecorrido"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fechaHora"
+            android:text="Fecha de evento"
+            android:layout_toRightOf="@id/tipoRecorrido"
+            android:layout_below="@+id/identificador"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            />
+        ></RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

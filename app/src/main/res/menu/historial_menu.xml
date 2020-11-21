@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Caminata"
+        android:id="@+id/caminataItem"
+        android:icon="@drawable/ic_caminar"/>
+    <item
+        android:title="Trote"
+        android:id="@+id/troteItem"
+        android:icon="@drawable/ic_trotar"/>
+    <item
+        android:title="Carrera"
+        android:id="@+id/carreraItem"
+        android:icon="@drawable/ic_correr"/>
+    <item
+        android:title="Ciclismo"
+        android:id="@+id/ciclismoItem"
+        android:icon="@drawable/ic_bicicleta"/>
+</menu>
